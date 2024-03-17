@@ -1,0 +1,59 @@
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.ipr
+*.iws
+.out/
+
+# Build files
+/build/
+/out/
+
+# Gradle files
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ANTLR4 generated files 
+/src/main/antlr4/**/*.java
+/src/main/antlr4/**/*.tokens
+/src/main/antlr4/**/*.interp
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Log files
+*.log
+
+# Virtual Machine crash logs
+hs_err_pid*
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE-specific files that should not be ignored
+!.idea/runConfigurations/
+
+# User-specific stuff
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/dictionaries
+
+# Editor-based files
+*.sublime-workspace
+
+# Project-specific temporary files or folders
+/temp/
+/temporary/
+/tmp/
